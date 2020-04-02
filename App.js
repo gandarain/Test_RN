@@ -1,24 +1,17 @@
 import React, { Component } from 'react'
-import { View, Text } from 'react-native'
-import { Icon } from 'native-base'
+import AppNavigator from './src/navigator/Navigator'
+import { Root } from 'native-base'
 
-class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {}
+export default class App extends Component {
+  constructor() {
+    super()
   }
 
   render() {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Welcom to React Native</Text>
-        <Icon
-          name={'magnify'}
-          type="MaterialCommunityIcons"
-        />
-      </View>
+      <Root>
+        <AppNavigator />
+      </Root>
     )
   }
 }
-
-export default App
