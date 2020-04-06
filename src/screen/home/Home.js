@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, Text, StatusBar, Image, ScrollView, Dimensions, } from 'react-native'
+import { View, Text, StatusBar, Image, ScrollView, Dimensions, TouchableOpacity } from 'react-native'
 import { Icon, Content, Container } from 'native-base'
 import { color } from '../../assets/styles/ColorList'
 
@@ -115,7 +115,7 @@ class App extends Component {
     if (this.state.cookingStudio.length > 0) {
       return this.state.cookingStudio.map((data) => {
         return (
-          <View key={data.id} style={{ backgroundColor: color.whiteColor, borderRadius: 20, marginRight: 20, width: screenWidth / 1.5 }}>
+          <TouchableOpacity onPress={() => this.props.navigation.navigate('Detail')} key={data.id} style={{ backgroundColor: color.whiteColor, borderRadius: 20, marginRight: 20, width: screenWidth / 1.5 }}>
             <View style={{ overflow: 'hidden', borderRadius: 20 }}>
               <Image
                 resizeMode={'stretch'}
@@ -123,7 +123,7 @@ class App extends Component {
                 style={{ height: 150, width: screenWidth / 1.5 }}
               />
             </View>
-            <View style={{ paddingVertical: 15, marginHorizontal: 15, backgroundColor: color.whiteColor, borderBottomWidth: 1, borderBottomColor: '#ffe1cd' }}>
+            <View style={{ paddingVertical: 15, marginHorizontal: 15, borderBottomWidth: 1, borderBottomColor: '#ffe1cd' }}>
               <Text style={{ fontSize: 15, color: color.fontColor }}>Lorem Ipsum</Text>
             </View>
             <View style={{ paddingHorizontal: 15, paddingVertical: 15 }}>
@@ -131,15 +131,15 @@ class App extends Component {
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
               </Text>
             </View>
-          </View>
+          </TouchableOpacity>
         )
       })
     }
   }
 
   renderNewReceipe() {
-    if (this.state.cookingStudio.length > 0) {
-      return this.state.cookingStudio.map((data) => {
+    if (this.state.newReceipe.length > 0) {
+      return this.state.newReceipe.map((data) => {
         return (
           <View key={data.id} style={{ backgroundColor: color.whiteColor, borderRadius: 20, marginRight: 20, width: screenWidth / 3 }}>
             <View style={{ overflow: 'hidden', borderRadius: 20, backgroundColor: 'red' }}>
