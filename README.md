@@ -17,4 +17,4 @@ React Native Version 0.61
 
 # Result 
 # Android
-![test image size](./result/android/1.png){:height="700px" width="400px"}
+[[./result/android/1.png | width=100px | alt=Bridge]]
