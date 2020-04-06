@@ -24,3 +24,6 @@ React Native Version 0.61
 <img src="https://github.com/gandarain/Test_RN/blob/master/result/ios/1.png" width="200" height="400">
 <img src="https://github.com/gandarain/Test_RN/blob/master/result/ios/2.png" width="200" height="400">
 <img src="https://github.com/gandarain/Test_RN/blob/master/result/ios/3.png" width="200" height="400">
+
+# Video
+![](./result/video.mp4)
