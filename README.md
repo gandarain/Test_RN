@@ -15,7 +15,8 @@ React Native Version 0.61
 4. react-native start
 5. react-native run-android
 
-# Result 
+# Result
+You can see the video and apk inside the result folder
 1. Android
 <img src="https://github.com/gandarain/Test_RN/blob/master/result/android/1.png" width="200" height="400">
 <img src="https://github.com/gandarain/Test_RN/blob/master/result/android/2.png" width="200" height="400">
@@ -24,6 +25,3 @@ React Native Version 0.61
 <img src="https://github.com/gandarain/Test_RN/blob/master/result/ios/1.png" width="200" height="400">
 <img src="https://github.com/gandarain/Test_RN/blob/master/result/ios/2.png" width="200" height="400">
 <img src="https://github.com/gandarain/Test_RN/blob/master/result/ios/3.png" width="200" height="400">
-
-# Video
-![](result/video.mp4)
