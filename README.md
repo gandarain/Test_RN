@@ -14,3 +14,7 @@ React Native Version 0.61
 4. pod install
 4. react-native start
 5. react-native run-android
+
+# Result 
+# Android
+![alt text](./result/android/1.png)
