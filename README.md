@@ -17,4 +17,4 @@ React Native Version 0.61
 
 # Result 
 # Android
-![alt text](./result/android/1.png)
+![test image size](/result/android/1.jpg){:height="700px" width="400px"}
