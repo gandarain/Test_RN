@@ -16,5 +16,5 @@ React Native Version 0.61
 5. react-native run-android
 
 # Result 
-# Android
-<img src="https://github.com/gandarain/Test_RN/blob/master/result/android/1.png" width="400" height="790">
+1. Android
+<img src="https://github.com/gandarain/Test_RN/blob/master/result/android/1.png" width="400" height="400">
