@@ -17,4 +17,4 @@ React Native Version 0.61
 
 # Result 
 # Android
-<img src="https://github.com/gandarain/Test_RN/blob/master/result/android/1.png" width="400" height="400">
+<img src="https://github.com/gandarain/Test_RN/blob/master/result/android/1.png" width="200" height="400">
