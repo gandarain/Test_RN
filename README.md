@@ -17,4 +17,4 @@ React Native Version 0.61
 
 # Result 
 # Android
-[[./result/android/1.png | width=100px | alt=Bridge]]
+<img src="https://github.com/gandarain/Test_RN/blob/master/result/android/1.png" width="400" height="790">
